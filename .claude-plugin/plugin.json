@@ -1,0 +1,8 @@
+{
+  "name": "job-hunter",
+  "version": "0.1.0",
+  "description": "Scheduled LinkedIn job search, validation and (optional) application agent for Claude Code. Assistant mode by default.",
+  "author": { "name": "Pitetech" },
+  "license": "MIT",
+  "skills": "./skills/"
+}

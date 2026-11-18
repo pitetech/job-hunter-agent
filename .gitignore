@@ -1,0 +1,20 @@
+# Personal data: never commit
+*.env
+profile.yaml
+answers.yaml
+queue.md
+applied.csv
+skipped.csv
+pending.md
+relatorios/
+*.pdf
+.job-hunter/
+forbidden-terms.txt
+
+# Tooling
+__pycache__/
+*.pyc
+.superpowers/
+
+# Internal design docs (name the owner): kept local, never published
+docs/superpowers/

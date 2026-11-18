@@ -1,0 +1,61 @@
+# job-hunter profile / perfil do job-hunter
+# Saved by /job-hunter:setup at ~/.job-hunter/profile.yaml (NEVER commit it).
+# Salvo pelo /job-hunter:setup em ~/.job-hunter/profile.yaml (NUNCA suba no Git).
+# Every value below is a PLACEHOLDER: edit it / todo valor abaixo é EXEMPLO: edite.
+
+language: en                  # YOU MUST EDIT: pt-BR or en (messages and answers / idioma das mensagens e respostas)
+
+target_roles:                 # YOU MUST EDIT: roles you want / cargos que você quer
+  - Product Designer
+
+equivalent_rules:             # neighbouring roles that are also OK, in plain words / cargos vizinhos aceitos
+  - "UX Designer when the description has at least 3 product-design duties"
+
+exclude:                      # deal-breakers, never apply / o que nunca aceitar
+  - "on-site outside my city"
+  - "fluent English required"
+
+search_terms:                 # generated from target_roles, you can add more / gerado a partir dos cargos
+  - product designer
+  - ux designer
+
+location:
+  city: Rio de Janeiro        # YOU MUST EDIT
+  radius_km: 40
+  accept_remote: true
+
+work_model:                   # remote, hybrid, onsite (any of them / qualquer combinação)
+  - remote
+  - hybrid
+
+salary:                       # expected monthly amount per contract type; 0 = "not set"
+  CLT: 0                      # YOU MUST EDIT / pretensão mensal por regime
+  PJ: 0
+  currency: BRL
+
+languages:                    # your real level, the agent never claims more / seu nível real
+  English: intermediate
+  Portuguese: native
+
+availability:
+  onsite_days_per_week: 2     # how many on-site days you accept / dias presenciais aceitos
+  can_commute: true
+  start_date: "to be agreed"
+
+cv_path: 'C:\Users\<name>\Documents\cv.pdf'   # YOU MUST EDIT: path to your CV (PDF), keep the SINGLE quotes / caminho do currículo, mantenha as aspas SIMPLES
+
+mode: assistant               # assistant (default: you approve) or auto (sends by itself)
+auto_mode_acknowledged: false # set by setup only if you typed the risk acknowledgment / só o setup muda
+dry_run: false                # true = never send anything, only report / true = só relata
+
+limits:
+  max_applications_per_run: 5 # 1 to 20; assistant default 5, auto default 10
+
+schedule:                     # local times, 24h / horários locais
+  - "10:00"
+  - "15:00"
+  - "21:00"
+
+notifications:
+  telegram:
+    enabled: false            # optional, see docs/telegram-setup.md / opcional

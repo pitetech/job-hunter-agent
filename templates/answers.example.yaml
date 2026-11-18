@@ -1,0 +1,19 @@
+# job-hunter answers / respostas do job-hunter
+# Facts the agent may use to answer application questions.
+# Fatos que o agente pode usar para responder perguntas de candidatura.
+# Saved at ~/.job-hunter/answers.yaml (NEVER commit it / NUNCA suba no Git).
+# source: cv   = extracted from your CV and confirmed by you / extraído do currículo e confirmado
+# source: user = told by you during setup / informado por você no setup
+# Anything NOT listed here is never answered by the agent: it goes to pending.md.
+# O que NÃO está aqui nunca é respondido pelo agente: vai para o pending.md.
+
+facts:
+  - question_topic: "years of experience in the target area"   # YOU MUST EDIT
+    answer: "0"
+    source: user
+  - question_topic: "tools you use daily"
+    answer: "Figma"
+    source: cv
+  - question_topic: "certifications"
+    answer: "none"
+    source: user

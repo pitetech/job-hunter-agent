@@ -1,0 +1,11 @@
+{
+  "name": "pitetech",
+  "owner": { "name": "Pitetech" },
+  "plugins": [
+    {
+      "name": "job-hunter",
+      "source": "./",
+      "description": "Scheduled LinkedIn job search, validation and (optional) application agent. Assistant mode by default."
+    }
+  ]
+}
